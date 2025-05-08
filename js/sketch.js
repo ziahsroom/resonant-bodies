@@ -15,29 +15,29 @@ let lastBgSwap = 0;
 
 // Exact image filenames
 const fileNames = [
-  '../img/danc11.jpg',
-  '../img/dance11.jpg',
-  '../img/danc21.jpg',
-  '../img/dance2.jpg',
-  '../img/dance3.jpg',
-  '../img/dance6.jpg',
-  '../img/dance7.jpg',
-  '../img/dance8.jpg',
-  '../img/dance11.jpg',
-  '../img/danc22.jpg',
-  '../img/dance21.jpg',
-  '../img/danc19.jpg',
-  '../img/danc17.jpg',
-  '../img/danc16.jpg',
-  '../img/danc12.jpg',
-  '../img/danc10.jpg',
-  '../img/danc18.jpg',
-  '../img/danc22.jpg',
-  '../img/dance13.jpg'
+  "img/danc11.jpg",
+  "img/dance11.jpg",
+  "img/danc21.jpg",
+  "img/dance2.jpg",
+  "img/dance3.jpg",
+  "img/dance6.jpg",
+  "img/dance7.jpg",
+  "img/dance8.jpg",
+  "img/dance11.jpg",
+  "img/danc22.jpg",
+  "img/dance21.jpg",
+  "img/danc19.jpg",
+  "img/danc17.jpg",
+  "img/danc16.jpg",
+  "img/danc12.jpg",
+  "img/danc10.jpg",
+  "img/danc18.jpg",
+  "img/danc22.jpg",
+  "img/dance13.jpg"
 ];
 
 function preload() {
-  customFont = loadFont('../font/abduction2002.ttf');
+  customFont = loadFont('font/abduction2002.ttf');
   fileNames.forEach(fn => {
     bgImgs.push(
       loadImage(
