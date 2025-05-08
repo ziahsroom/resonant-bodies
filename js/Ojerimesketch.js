@@ -17,8 +17,8 @@ let customFont;
 let bgImg;
 
 function preload() {
-  customFont = loadFont('../font/DigitaldreamFatNarrow.ttf');
-  bgImg = loadImage('../img/Ojerime.jpg');
+  customFont = loadFont("font/DigitaldreamFatNarrow.ttf");
+  bgImg = loadImage("img/Ojerime.jpg");
 }
 
 function setup() {

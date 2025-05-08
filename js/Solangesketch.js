@@ -46,7 +46,7 @@ let customFont;
 let ghostWords = [];
 
 function preload() {
-  customFont = loadFont('font/Brushed.ttf');
+  customFont = loadFont("font/Brushed.ttf");
 }
 
 function setup() {

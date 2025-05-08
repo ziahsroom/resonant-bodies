@@ -31,7 +31,7 @@ let colors = [
 let customFont;
 
 function preload() {
-  customFont = loadFont('../font/destructobeambb_bold.ttf');
+  customFont = loadFont("font/destructobeambb_bold.ttf");
 }
 
 function setup() {
