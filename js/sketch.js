@@ -37,7 +37,7 @@ const fileNames = [
 ];
 
 function preload() {
-  customFont = loadFont('font/abduction2002.ttf');
+  customFont = loadFont("font/abduction2002.ttf");
   fileNames.forEach(fn => {
     bgImgs.push(
       loadImage(
