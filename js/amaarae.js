@@ -1,7 +1,7 @@
 let customFont;
 
 function preload() {
-  customFont = loadFont('../font/blox2.ttf');
+  customFont = loadFont("font/blox2.ttf");
 }
 
 let allWords = [];
