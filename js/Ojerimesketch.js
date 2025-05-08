@@ -62,7 +62,7 @@ function keyPressed() {
   if (key === '1') {
     window.location.href = "Solange.html";
   } else if (key === '2') {
-    window.location.href = "kelela.html";
+    window.location.href = "Kelela.html";
   }
 }
 
