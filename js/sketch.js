@@ -113,11 +113,11 @@ function draw() {
   textAlign(RIGHT, BOTTOM);
   textSize(20);
   fill(255, 0, 0); // Bright red
-  text("Press 1 to enter a textual, sonic landscape shaped by Black women.", width - 30, height - 30);
+  text("Press 2 to enter a textual, sonic landscape shaped by Black women.", width - 30, height - 30);
 }
 
 function keyPressed() {
-  if (key === '1') {
+  if (key === '2') {
     window.location.href = "Solange.html";
   }
 }
