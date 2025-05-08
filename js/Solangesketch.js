@@ -153,7 +153,7 @@ function keyPressed() {
   if (key === '1') {
     window.location.href = "index.html";
   } else if (key === '2') {
-    window.location.href = "ojerime.html";
+    window.location.href = "Ojerime.html";
   } else if (key === '3') {
     currentLyrics = binzLyrics;
   } else if (key === '4') {
